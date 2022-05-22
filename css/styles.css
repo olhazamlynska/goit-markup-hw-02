@@ -86,6 +86,10 @@ body {
   color: var(--accent);
 }
 .header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 .header-address:hover,
@@ -162,10 +166,6 @@ body {
 .team-item {
   background-color: #ffffff;
 }
-.team-item:hover,
-.team-item:focus {
-  background-color: var(--accent);
-}
 .team-link {
 }
 .team-img {
@@ -229,14 +229,14 @@ body {
 .works-item {
   background-color: #eeeeee;
 }
-.works-item:hover,
-.works-item:focus {
-  background-color: var(--accent);
-}
-
 .works-btn {
   color: var(--second-tittle-color);
   background-color: var(--second-btn-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .works-btn:hover,
 .works-btn:focus {
